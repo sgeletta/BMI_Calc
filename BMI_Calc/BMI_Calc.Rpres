@@ -3,7 +3,7 @@ BMI_Calc
 author: Simon Geletta
 date: 03/21/2015
 
-Presentation OUtline
+Presentation Outline
 ========================================================
 
 This presentation is created to introduce a new web-based application called "BMI Calc". The presentation proides information about this application by focusing on the following topics
