@@ -1,0 +1,16 @@
+{
+    "contents" : "# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyServer(function(input, output) {\n  htInches<-reactive({as.numeric(input$feet)*12 + input$inches})\n  wtPounds<-reactive({as.numeric(input$pounds)})\n  \n  output$ht<-renderText(paste(htInches(), \"Inches\"))\n  output$wt<-renderText(paste(wtPounds(), \"Pounds\"))\n  \n  output$distPlot <- renderPlot({\n    input$goButton\n    bmi<- reactive({as.numeric(isolate(input$pounds)/(input$feet*12 + input$inches)^2)*703.06957964})\n    bmitxt<-reactive(paste(\"BMI=\",round(bmi(),0)))\n    y<-reactive(matrix(nrow=2,ncol=1,c(bmi(),30)))\n    #cc<-ifelse(bmi() < 25, \"green\", ifelse(bmi() <30, \"yellow\", \"red\"))\n    paste(l<-barplot(y(), col=c(ifelse(bmi() < 25, \"green\", ifelse(bmi() <30, \"yellow\", \"red\")),\"grey\")), \n          k<-text(l, bmi()+4, format(bmitxt()),xpd=TRUE, col=\"blue\", cex=2))\n   \n      \n  })   \n    \n})\n",
+    "created" : 1426882125887.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2774501639",
+    "id" : "27AF6675",
+    "lastKnownWriteTime" : 1426930954,
+    "path" : "C:/Users/Simon/Desktop/Data Science/BMI_Calc/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

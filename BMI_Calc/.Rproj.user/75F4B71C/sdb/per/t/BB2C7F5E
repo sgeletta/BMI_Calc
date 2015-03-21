@@ -1,0 +1,16 @@
+{
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\n\nshinyUI(fluidPage(\n\n  # Application title\n  titlePanel(\"BMI Calculator\"),\n\n  # Sidebar with input objects\n  sidebarLayout(\n    sidebarPanel(\n      sliderInput(inputId=\"feet\",\n                  \"Height in feet:\",\n                  min = 3,\n                  max = 7,\n                  value = 0),\n      \n      sliderInput(\"inches\",\n                  \"Height inches:\",\n                  min = 0,\n                  max = 12,\n                  value = 0),\n      \n      numericInput(\"pounds\",\n                   \"Weight in pounds:\",\n                   min = 0,\n                   max = 300,\n                   value = 0),\n      actionButton(\"goButton\", \"Calculate!\")\n      \n    ),\n    \n    # Show a plot of the generated distribution\n    mainPanel(\n      ('Height:'), textOutput('ht'),\n      ('Weight:'), textOutput('wt'),\n      plotOutput(\"distPlot\"),\n      tags$a(href = \"~Read_Me.Rmd\", \"Click here to learn more about this app\")\n\n      \n\n   \n    )\n  )\n))\n",
+    "created" : 1426882123472.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1688606041",
+    "id" : "BB2C7F5E",
+    "lastKnownWriteTime" : 1426931234,
+    "path" : "C:/Users/Simon/Desktop/Data Science/BMI_Calc/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
