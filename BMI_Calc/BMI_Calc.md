@@ -1,0 +1,69 @@
+BMI_Calc
+========================================================
+author: Simon Geletta
+date: 03/21/2015
+
+Presentation OUtline
+========================================================
+
+This presentation is created to introduce a new web-based application called "BMI Calc". The presentation proides information about this application by focusing on the following topics
+
+- What is BMI Calc?
+- How does BMI Calc Work?
+- Why use BMI Calc?
+- How can I learn more about BMI Calc?
+
+What is BMI Calc?
+========================================================
+- BMI Calc is a web-based application that allows the user to find out what their Body Mass Index is
+- Body Mass Index (BMI) is a measure of relative mass based on ones height and weight
+- BMI is an important indicator of one's risk for many chronic conditions that are especially prevalent among older people
+- The index measures body mass on a continuous surface
+- The index has also been used to classify body mass into clinically meaningful categories
+
+How does BMI Calc Work?
+========================================================
+
+- The BMI calculator (BMI Calc) asks for the following inputs from the user:
+-- The respondent's weight
+-- The respondent's height
+- Note that the unit of measurement units that the application expects by way of input is the "imperial" units
+- This means that if you know your measurements only in terms of metric units, you must make the transformation before entering them into the application
+- Failing to use the appropriate unit of measurement will result in erronous results
+
+Why use BMI Calc?
+========================================================
+
+- Knowing one's risk for a disease or condition has been known to have a beneficial health outcome
+- Everything being equal, individuals who know their risk to a disease happen to avoid behaviors that contribute to the disease
+- It has been claimed that chronic conditions relating to overweight and obesity (characteristics that can effectively gleaned by using BMI Calc) are now an epidemic in the US
+- If the premise that knowing risk avoids getting a disease is supported, then it can be claimed that using BMI Calc can have a significant positive effect on health
+- Some have even argued that using BMI Calc can reduce the cost of healthcare, and improve the health of the population
+- A major media source (who spoke on premises of anonymity) has even suggested that using BMI Calc may be more effective in keeping the cost of health care far better than the "affordable care act"
+
+So, where do we go from here?
+========================================================
+ - Would the following stats be true if thre were no BMI Calc?
+ - The answer is probably "yes"
+
+```r
+summary(cars)
+```
+
+```
+     speed           dist       
+ Min.   : 4.0   Min.   :  2.00  
+ 1st Qu.:12.0   1st Qu.: 26.00  
+ Median :15.0   Median : 36.00  
+ Mean   :15.4   Mean   : 42.98  
+ 3rd Qu.:19.0   3rd Qu.: 56.00  
+ Max.   :25.0   Max.   :120.00  
+```
+
+The End!
+========================================================
+
+- Use BMI Calc! It saves lives!
+- Vote for BMI Calc for congress! It is more effective than Obamacare!
+- Go BMI Calc!!
+
