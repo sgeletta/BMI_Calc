@@ -9,10 +9,7 @@ library(shiny)
 shinyServer(function(input, output) {
   htInches<-reactive({as.numeric(input$feet)*12 + input$inches})
   wtPounds<-reactive({as.numeric(input$pounds)})
-  output$tabs<-renderUI({tabsetPanel(tabPanel(title="Main"), tabPanel(title="About BMI Calc"))
   
-  })
-    
   output$ht<-renderText(paste(htInches(), "Inches"))
   output$wt<-renderText(paste(wtPounds(), "Pounds"))
   

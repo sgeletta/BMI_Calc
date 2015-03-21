@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"BMI Calculator Documentation\"\nauthor: \"Simon Geletta\"\ndate: \"Friday, March 20, 2015\"\noutput: html_document\n---\n\n###How the BMI Calculator App Works\nThe BMI Calculator is a simple calculator that takes in the height and weight of an individual and calculates the Body Mass score for a given individual. In order to correctly calculate BMI the calculator expects the measurements to be in  \"imperial\" units. If measurements are entered in any other units the calculation will not give correct results.\n\nTwo slider controls are used to input the height measurements - one for the \"feet\", and the other one for \"inches\". \nTo input weight measurement, simply use pounds. The equation used for the calculation is as follow:\n$$\\frac{wt} {ht^2} * 703.07$$\n\nWhere: \n\n* wt = Weight in pounds\n\n* ht = height in inches\n\nIn addition to giving the actual BMI score, the application also gives a \"cue\" as to the status of health of the individual with the BMI.\n\n* If the BMI level is between 18 and 25 this is a normal BMI score. To show this normalcy, the score is shown on a green background space.\n\n* If the BMI is between greater than 25 but less than or equal to 28 then the application shows that this is an \"overweight BMI\" by showing the score in a yellow background\n\n* If the BMI is greater than or equal to 29 then this is an \"obese\" BMI, and to show this the application background shows in red.\n\n####Hope the application will help you keep fit!!\n\nTo use the BMI Calculator App follow this link: [Launch the app](http://sgeletta.shinyapps.io/BMI_Calc).\n\n</div> \n",
+    "created" : 1426886118499.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4060564942",
+    "id" : "B166DC0D",
+    "lastKnownWriteTime" : 1426962992,
+    "path" : "~/GitHub/BMI_Calc/BMI_Calc/Read_Me.Rmd",
+    "project_path" : "Read_Me.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

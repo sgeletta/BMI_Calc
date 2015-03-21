@@ -1,3 +1,4 @@
+
 ---
 title: "BMI Calculator Documentation"
 author: "Simon Geletta"
@@ -30,4 +31,3 @@ In addition to giving the actual BMI score, the application also gives a "cue" a
 
 To use the BMI Calculator App follow this link: [Launch the app](http://sgeletta.shinyapps.io/BMI_Calc).
 
-</div> 
